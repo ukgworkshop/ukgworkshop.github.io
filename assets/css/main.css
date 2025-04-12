@@ -16,6 +16,9 @@
   --heading-font: "Raleway",  sans-serif;
   --nav-font: "Raleway",  sans-serif;
 }
+.justify-text {
+  text-align: justify;
+}
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
@@ -319,7 +322,16 @@ h6 {
   .navmenu>ul>li:last-child {
     padding-right: 0;
   }
-
+  .custom-purple {
+    background-color: #f82249; /* Bootstrap purple */
+    color: white;
+    border: none;
+  }
+  
+  .custom-purple:hover {
+    background-color: #9c0909;
+  }
+  
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
